@@ -10,8 +10,8 @@ title: Mr. Baker's Lessons
 email: cbaker@jpgacademy.org
 description: > # this means to ignore newlines until "baseurl:"
   This will hold the lesson plans of Mr. Baker.
-baseurl: "/baker-lesson-plans" # the subpath of your site, e.g. /blog
-url: "http://http://jpgacademy.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://baker.jpgapps.org/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
