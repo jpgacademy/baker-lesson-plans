@@ -15,7 +15,15 @@ url: "http://baker.jpgapps.org" # the base hostname & protocol for your site
 github_username:  malacon
 
 collections:
-  - physics
+  physics:
+    output: true
+    permalink: /physics/:categories/:day/:title.html
+  algebra2:
+    output: true
+  cs:
+    output: true
+  earth:
+    output: true
 
 # Build settings
 markdown: kramdown
