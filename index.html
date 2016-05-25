@@ -21,10 +21,10 @@ layout: default
   <ul class="physics-list">
     {% for lesson in site.physics %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ lesson.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ lesson.url | prepend: site.baseurl }}">{{ lesson.title }}</a>
         </h2>
       </li>
     {% endfor %}
